@@ -1,4 +1,4 @@
-# Guía de conmados para el uso de GIT
+# Guía de comandos para el uso de GIT
 
 ## Comándos básicos
 
@@ -47,7 +47,7 @@ Comando | Resultado
 `git remote` | Muestra los repositorios remotos que hay en nuestro **repo** local
 `git clone <url>` | Crea una carpeta en el directorio actual con el mismo nombre del **repo** remoto y descarga todo su contenido
 `git remote add <remoteName> <url>` | Añade `<remoteNmae>` como **repo** remoto
-`git push <remoteName> <branch>` | Sube los cambios de nuestro repositorio local al remoto en la rama indicada
+`git push <remoteName> <branch>` | Sube los cambios de nuestro **repo** local al remoto en la rama indicada
 `git fetch <remoteName>` | Descarga todos los cambios en todas las ramas de `<remoteName>` desde la última vez que descargamos
 `git fetch <remoteName> <branchName>` | Descarga todos los cambios en `<branchName>` en `<remoteName>` desde la última vez que descargamos
 `git pull <remoteName>` | Descarga y aplica los cambios del repositorio remoto. Hace `git fetch` y `git merge` a la vez
